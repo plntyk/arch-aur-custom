@@ -3,16 +3,16 @@
 
 
 pkgname=lucidor
-pkgver=0.9.14
+pkgver=0.9.15
 pkgrel=1
 pkgdesc="A program for reading and handling EPUB e-books and OPDS catalogs"
 arch=('i686' 'x86_64')
 url="https://lucidor.org/lucidor/"
 license=('GPL3')
-depends=('xulrunner' 'desktop-file-utils')
+depends=('palemoon' 'desktop-file-utils')
 install=$pkgname.install
 source=(${pkgname}_${pkgver}.tar.gz::"http://lucidor.org/get.php?id=${pkgname}_${pkgver}.tar.gz")
-md5sums=('b5cd1d6b39fa8fb8c83c51ff53acba36')
+md5sums=('e898ccbd335820bdf6eeee916462a399')
 
 build()
 {
